@@ -7,36 +7,146 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<style>
-    .row div{padding:20px 10px; border:1px solid;}
-</style>
+
     <title>Hello, world!</title>
   </head>
   <body>
 
-
-    <div class="container">
-
-        <div class="row" style="background: lightblue">
-            <div class="col-md-6">col-md-6</div>
-            <div class="col-md-6">col-md-6</div>
+    <nav class="navbar navbar-toggleable-sm bg-info navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav"></div>
         </div>
-
-        <div class="row" style="background: pink">
-            <div class="col-md-6 col-lg-3">col-md-6 col-lg-3</div>
-            <div class="col-md-6 col-lg-3">col-md-6 col-lg-3</div>
-            <div class="col-md-6 col-lg-3">col-md-6 col-lg-3</div>
-            <div class="col-md-6 col-lg-3">col-md-6 col-lg-3</div>
-        </div>
+    </nav>
 
 
-        <div class="row" style="background: yellow">
-            <div class="col-3">col-3</div>
-            <div class="col-3">col-3</div>
-            <div class="col-3">col-3</div>
-            <div class="col-3">col-3</div>
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center" >
+        <div class="container">
+        
+        
+            <h1 class="display-1">Welcome to the Dojo</h1>
+            <p class="lead">A guiding light for the less enlightened...</p>
         </div>
     </div>
+
+    <div class="container text-muted">
+        
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/node.png" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Node.js Training</h3>
+                        <p>what in the world is gon</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/react.png" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Node.js Training</h3>
+                        <p>what in the world is gon</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/webpack.png" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Node.js Training</h3>
+                        <p>what in the world is gon</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="img/mongo.png" class="card-img-top img-fluid">
+                    <div class="card-block">
+                        <h3 class="card-title">Node.js Training</h3>
+                        <p>what in the world is gon</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <h2 class="display-4 text-center py-5">Meet the Speakers</h2>
+        <nav class="nav justify-content-end nav-pills flex-column flex-md-row">
+           <a href="#ninja" class="nav-link active" data-toggle="tab">The Net Ninja</a>
+           <a href="#wizard" class="nav-link" data-toggle="tab">The Web Wizard</a>
+           <a href="#captain" class="nav-link" data-toggle="tab">Captain Code</a>
+           <a href="#avenger" class="nav-link" data-toggle="tab">Angular Avenger</a>
+        </nav>
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="ninja">
+
+                <h3>The Net Ninja</h3>
+                <p>We’re looking for engineers who can:
+                    Include threat modeling early in the design phases of all projects
+                    Perform regular penetration tests both with internal red-teams as well as external contractors
+                    Design systems that...
+                    are very difficult to hack
+                    make it very easy to detect any hacking
+                    ensure that the effect is minimal, even if hacking is successful
+                    Automate all repeating tasks (especially testing), and write tests that function as documentation
+                    Use efficient tools, and treat infrastructure as code</p>
+            </div>
+
+            <div class="tab-pane" id="wizard">
+
+                <h3>The Web Wizard</h3>
+                <p>We’re looking for engineers who can:
+                    Include threat modeling early in the design phases of all projects
+                    Perform regular penetration tests both with internal red-teams as well as external contractors
+                    Design systems that...
+                    are very difficult to hack
+                    make it very easy to detect any hacking
+                    ensure that the effect is minimal, even if hacking is successful
+                    Automate all repeating tasks (especially testing), and write tests that function as documentation
+                    Use efficient tools, and treat infrastructure as code</p>
+            </div>
+
+            <div class="tab-pane" id="captain">
+
+                <h3>Code Captain</h3>
+                <p>We’re looking for engineers who can:
+                    Include threat modeling early in the design phases of all projects
+                    Perform regular penetration tests both with internal red-teams as well as external contractors
+                    Design systems that...
+                    are very difficult to hack
+                    make it very easy to detect any hacking
+                    ensure that the effect is minimal, even if hacking is successful
+                    Automate all repeating tasks (especially testing), and write tests that function as documentation
+                    Use efficient tools, and treat infrastructure as code</p>
+            </div>
+
+            <div class="tab-pane" id="avenger">
+
+                <h3>Angular Avenger</h3>
+                <p>We’re looking for engineers who can:
+                    Include threat modeling early in the design phases of all projects
+                    Perform regular penetration tests both with internal red-teams as well as external contractors
+                    Design systems that...
+                    are very difficult to hack
+                    make it versdASDASDASDASDy easy to detect any hacking
+                    ensure that the effect is minimal, even if hacking is successful
+                    Automate all repeating tasks (especially testing), and write tests that function as documentation
+                    Use efficient tools, and treat infrastructure as code</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
 
 
     <!-- Optional JavaScript -->
